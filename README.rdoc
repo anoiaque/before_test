@@ -2,8 +2,9 @@
  With RSpec we can do before test do ... This gem enable to do so with test unit
 
 == Usage
+  require 'test_before'
 
-class  .... < Test::Unit::TestCase
+  class  .... < Test::Unit::TestCase
 
     before_test :test_me, :setup_for_test_me
 
@@ -17,7 +18,7 @@ class  .... < Test::Unit::TestCase
       @var = "Cup of tea please"
     end
     
-end
+  end
 
 
 == Install
