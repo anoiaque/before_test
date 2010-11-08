@@ -2,12 +2,6 @@
  With RSpec we can do before test do ... This gem enable to do so with test unit
 
 == Usage
-        A           B         C
-   1 First name	Last name	 Age
-   2 Albert	    Einstein	 131
-   3 Leonard	  De Vinci	 558
-
-
   require 'test_before'
 
   class  .... < Test::Unit::TestCase
